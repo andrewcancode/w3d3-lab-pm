@@ -27,3 +27,22 @@
 // datatype: array of objects with an array
 
 // data structure: const students = [{ name: x, location: blah, favoriteshows: [x, y, z]}, {name: y, location: blah, favoriteshows: [x, y, z]}, ...]
+
+// Take it Easy
+
+//     Make an array that holds all of the colors of the rainbow.
+const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+//     Write code that will access "blue" from the rainbow array.
+console.log(rainbow[4]);
+
+//     Make an object that is called your name and holds the information about your favorite food, a hobby, the name of the town that you live in currently, and your favorite datatype.
+const andrew = {
+    favfood: 'steak',
+    hobby: 'fishing',
+    currenttown: 'columbus, oh',
+    favdatatype: 'boolean'
+};
+
+//     Write code that will access your hobby from the object that you just created.
+console.log(andrew.hobby);
